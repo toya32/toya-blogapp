@@ -2,11 +2,11 @@
 #
 # Table name: likes
 #
-#  id         :integer          not null, primary key
+#  id         :bigint           not null, primary key
 #  created_at :datetime         not null
 #  updated_at :datetime         not null
-#  article_id :integer
-#  user_id    :integer          not null
+#  article_id :bigint
+#  user_id    :bigint           not null
 #
 # Indexes
 #
